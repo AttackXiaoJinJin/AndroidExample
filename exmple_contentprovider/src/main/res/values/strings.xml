@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExmpleContentProvider</string>
+    <string name="name">请输入对方名字</string>
+    <string name="phone">请输入对方手机号码</string>
+    <string name="companyid">请输入对方所属公司的id</string>
+    <string name="idcompany">请输入公司id</string>
+    <string name="companywork">请输入公司业务</string>
+    <string name="companyaddress">请输入公司地址</string>
+    <string name="saveperson">存储</string>
+    <string name="savecompany">存储公司记录</string>
+</resources>

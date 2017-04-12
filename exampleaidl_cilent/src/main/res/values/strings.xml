@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExampleAIDL_Cilent</string>
+    <string name="sso">SSO登录</string>
+</resources>
