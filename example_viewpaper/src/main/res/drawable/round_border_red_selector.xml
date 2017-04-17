@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--shape定义成矩形,solid填充为白色，corners圆角，android:radius为角的弧度，值越大角越圆-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+        <corners android:radius="20dp" />
+        <solid android:color="@color/red" />
+</shape>

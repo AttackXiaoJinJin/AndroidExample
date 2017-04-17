@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<!--包括tabbar_home_selected.png,tab_2.png-->
+<!--state_selected="true"默认已选-->
+        <item android:drawable="@drawable/tabbar_home_selected" android:state_selected="true"/>
+        <item android:drawable="@drawable/tabbar_home"/>
+
+
+
+</selector>
