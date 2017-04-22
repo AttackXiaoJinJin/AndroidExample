@@ -5,9 +5,15 @@ package com.example.chenjin.gitdemo;
  */
 
 public class SaYHello {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.print("Hello");
     }
+
+    public void asddaffafa()
+
+    {
+
+    System.out.print("afdafafdaf;");
+}
 
 }
