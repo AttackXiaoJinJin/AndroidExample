@@ -5,4 +5,9 @@ package com.example.chenjin.gitdemo;
  */
 
 public class SaYHello {
+    public static void main(String[] args)
+    {
+        System.out.print("Hello");
+    }
+
 }
