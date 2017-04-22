@@ -5,4 +5,10 @@ package com.example.chenjin.gitdemo;
  */
 
 public class Chat {
+
+    public  static  void chat()
+    {
+        System.out.print("I'm chat.");
+    }
+
 }
