@@ -9,6 +9,19 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chatroom" />
+            <option value="$PROJECT_DIR$/example_aidl_server" />
+            <option value="$PROJECT_DIR$/example_custonview" />
+            <option value="$PROJECT_DIR$/example_internet" />
+            <option value="$PROJECT_DIR$/example_recyclerview" />
+            <option value="$PROJECT_DIR$/example_synchronizeddemo" />
+            <option value="$PROJECT_DIR$/example_thread_runnable" />
+            <option value="$PROJECT_DIR$/example_viewpaper" />
+            <option value="$PROJECT_DIR$/exampleaidl_cilent" />
+            <option value="$PROJECT_DIR$/exmple_contentprovider" />
+            <option value="$PROJECT_DIR$/img-androidexample" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/materialdesign" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

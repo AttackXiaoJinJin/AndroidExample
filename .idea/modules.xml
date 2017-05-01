@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GitDemo.iml" filepath="$PROJECT_DIR$/GitDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidExample.iml" filepath="$PROJECT_DIR$/AndroidExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatroom/chatroom.iml" filepath="$PROJECT_DIR$/chatroom/chatroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_aidl_server/example_aidl_server.iml" filepath="$PROJECT_DIR$/example_aidl_server/example_aidl_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_custonview/example_custonview.iml" filepath="$PROJECT_DIR$/example_custonview/example_custonview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_internet/example_internet.iml" filepath="$PROJECT_DIR$/example_internet/example_internet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_recyclerview/example_recyclerview.iml" filepath="$PROJECT_DIR$/example_recyclerview/example_recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_synchronizeddemo/example_synchronizeddemo.iml" filepath="$PROJECT_DIR$/example_synchronizeddemo/example_synchronizeddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_thread_runnable/example_thread_runnable.iml" filepath="$PROJECT_DIR$/example_thread_runnable/example_thread_runnable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_viewpaper/example_viewpaper.iml" filepath="$PROJECT_DIR$/example_viewpaper/example_viewpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exampleaidl_cilent/exampleaidl_cilent.iml" filepath="$PROJECT_DIR$/exampleaidl_cilent/exampleaidl_cilent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exmple_contentprovider/exmple_contentprovider.iml" filepath="$PROJECT_DIR$/exmple_contentprovider/exmple_contentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/img-androidexample/img-androidexample.iml" filepath="$PROJECT_DIR$/img-androidexample/img-androidexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdesign/materialdesign.iml" filepath="$PROJECT_DIR$/materialdesign/materialdesign.iml" />
     </modules>
   </component>
 </project>
