@@ -23,6 +23,8 @@
 
         <activity android:name=".navigation.NavigationActivity"
             />
+        <activity android:name=".cardview.CardViewActivity"
+            />
     </application>
 
 </manifest>

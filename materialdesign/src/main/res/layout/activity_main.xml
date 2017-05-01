@@ -31,6 +31,12 @@
         android:onClick="onClickNavigationView"
         android:background="@drawable/custom_button" />
 
+    <Button
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CardView"
+        android:onClick="onClickCardView"
+        android:background="@drawable/custom_button" />
 
 </LinearLayout>
