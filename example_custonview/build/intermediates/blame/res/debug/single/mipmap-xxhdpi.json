@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\ASWorkSpace\\AndroidExample\\example_custonview\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "F:\\ASWorkSpace\\AndroidExample\\example_custonview\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\ASWorkSpace\\AndroidExample\\example_custonview\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "F:\\ASWorkSpace\\AndroidExample\\example_custonview\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    }
+]

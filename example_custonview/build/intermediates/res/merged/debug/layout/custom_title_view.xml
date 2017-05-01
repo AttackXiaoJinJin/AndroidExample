@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--使用自定义属性的格式为xmlns:名字="http://schemas.android.com/apk/res/应用包名"-->
+
+<!--match_parent,具体的数值,EXACTLY，利用父view为我们提供所有剩余空间，
+wrap_content,AT_MOST,将大小设置为包裹我们的view内容，尺寸即父类view给我们作参考的尺寸
+UNSPECIFIED：表示子布局想要多大就多大，很少使用-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <!-- <com.example.example_custonview.simplecustomview.CustomTitleView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        custom:titleText="1234"
+        custom:titleTextColor="#FFFF0000"
+        custom:titleTextSize="40sp"
+
+            />
+    -->
+
+    <com.example.example_custonview.simplecustomview.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="1234"
+        custom:titleTextColor="#FFFF0000"
+        custom:titleTextSize="40sp"
+
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+
+        />
+
+
+
+     <Button
+         android:id="@+id/simpleimageview"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         />
+
+
+
+
+</RelativeLayout>
