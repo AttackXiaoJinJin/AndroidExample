@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.example_viewpaper">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BannerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity
+            android:name=".GuideActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".maintab.MainTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+        android:name=".moretab.MoreTabActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".moretab.MoreTabActivityTwo"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".springtab.SpringTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".countlesstab.CountlessTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".SingleTabActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name=".recyclerview.StaggeredGridLayoutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name=".recyclerview.HomeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+    </application>
+
+</manifest>

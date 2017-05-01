@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickBanner"
+            android:text="@string/alternate_play_banner"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickGuide"
+            android:text="@string/guide_bar"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickMainTab"
+            android:text="@string/main_tab"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickSlideTabTwo"
+            android:text="@string/slide_tab"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickSlideTab"
+            android:text="@string/slide_tab_detailed"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickSpringTab"
+            android:text="@string/spring_tab"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickYear"
+            android:text="@string/countless_tab"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickTabs"
+            android:text="@string/no_viewPager"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickSimpleRecyclerView"
+            android:text="简单的SimpleRecyclerView"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="onClickStaggeredGridLayoutActivity"
+            android:text="onClickStaggeredGridLayoutActivity"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Example_ViewPaper</string>
+    <string name="change_to_one">变为1个</string>
+    <string name="change_to_two">变为2个</string>
+    <string name="change_to_four">变为4个</string>
+    <string name="alternate_play_banner">轮播banner</string>
+    <string name="toggleButton1_no">不自动布局</string>
+    <string name="toggleButton1_yes">自动布局</string>
+    <string name="toggleButton2_no">不固定第一个tab</string>
+    <string name="toggleButton2_yes">固定第一个tab</string>
+    <string name="show_three_tab">显示三个tab</string>
+    <string name="show_five_tab">显示五个tab</string>
+    <string name="show_twelve_tab">显示十二个tab</string>
+    <string name="slide_tab_detailed">可滑动tab界面(ScrollIndicatorView详细配置)</string>
+    <string name="slide_tab">可滑动tab界面(ScrollIndicatorView)</string>
+    <string name="guide_bar">引导界面(FixedIndicatorView)</string>
+    <string name="main_tab">tab主界面(FixedIndicatorView)</string>
+    <string name="spring_tab">springtab界面(ScrollIndicatorView)</string>
+    <string name="countless_tab">无数tab的界面(RecyclerIndicatorView)</string>
+    <string name="no_viewPager">不集成ViewPager的Indicator使用方式</string>
+
+</resources>
