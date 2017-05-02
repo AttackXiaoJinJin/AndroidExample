@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aaaaaaa" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/chatroom" />
             <option value="$PROJECT_DIR$/example_aidl_server" />

@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.materialdesign.cardview.CardViewActivity;
+import com.example.materialdesign.collapsingtoolbarlayout.FruitActivity;
+import com.example.materialdesign.collapsingtoolbarlayout.MainFruitActivity;
 import com.example.materialdesign.drawerlayout.DrawerLayoutActivity;
 import com.example.materialdesign.navigation.NavigationActivity;
 import com.example.materialdesign.toolbar.ToolBarActivity;
@@ -27,21 +29,34 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void  onClickDrawerLayout(View view)
+    public void onClickDrawerLayout(View view)
     {
         startActivity(new Intent(getApplicationContext(), DrawerLayoutActivity.class));
     }
 
 
-    public void  onClickNavigationView(View view)
+    public void onClickNavigationView(View view)
     {
         startActivity(new Intent(getApplicationContext(), NavigationActivity.class));
     }
 
 
-    public void   onClickCardView(View view)
+    public void onClickCardView(View view)
     {
         startActivity(new Intent(getApplicationContext(), CardViewActivity.class));
+    }
+
+
+
+    public void onClickCollapsingToolbarLayout(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), MainFruitActivity.class));
+    }
+
+
+    public void onClickFruitActivity(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), FruitActivity.class));
     }
 
 }

@@ -69,6 +69,4 @@ public class DrawerLayoutActivity extends AppCompatActivity {
         return  true;
     }
 
-
-
 }

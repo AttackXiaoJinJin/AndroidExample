@@ -51,7 +51,7 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>{
             context=parent.getContext();
         }
         View view= LayoutInflater.from(context).inflate(R.layout.fruit_item, parent, false);
-        final ViewHolder viewHolder=new ViewHolder(view);
+
 
 
 
