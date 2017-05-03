@@ -1,7 +1,9 @@
 package com.example.chenjin.gitdemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.chenjin.androidexample.R;
 
 public class MainActivity extends AppCompatActivity {
 
