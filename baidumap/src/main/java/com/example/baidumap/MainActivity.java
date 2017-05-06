@@ -12,6 +12,7 @@ import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
+import com.baidu.mapapi.map.MyLocationData;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -153,10 +154,10 @@ public class MainActivity extends AppCompatActivity {
             baiduMap.animateMapStatus(mapStatusUpdate);
         }
 
-        com.baidu.mapapi.map.MyLocationData.Builder builder=new com.baidu.mapapi.map.MyLocationData().Builder();
+        MyLocationData.Builder builder=new MyLocationData.Builder();
         builder.latitude(bdLocation.getLatitude());//纬度
         builder.longitude(bdLocation.getLongitude());//经度
-        com.baidu.mapapi.map.MyLocationData myLocationData=builder.build();
+        MyLocationData myLocationData=builder.build();
         baiduMap.setMyLocationData(myLocationData);
 
 
