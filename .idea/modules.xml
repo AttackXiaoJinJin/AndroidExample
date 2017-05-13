@@ -8,9 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/chatroom/chatroom.iml" filepath="$PROJECT_DIR$/chatroom/chatroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_aidl_server/example_aidl_server.iml" filepath="$PROJECT_DIR$/example_aidl_server/example_aidl_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_broadcast/example_broadcast.iml" filepath="$PROJECT_DIR$/example_broadcast/example_broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_cameraalbum/example_cameraalbum.iml" filepath="$PROJECT_DIR$/example_cameraalbum/example_cameraalbum.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_chapter13/example_chapter13.iml" filepath="$PROJECT_DIR$/example_chapter13/example_chapter13.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_custonview/example_custonview.iml" filepath="$PROJECT_DIR$/example_custonview/example_custonview.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_internet/example_internet.iml" filepath="$PROJECT_DIR$/example_internet/example_internet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_notification/example_notification.iml" filepath="$PROJECT_DIR$/example_notification/example_notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_recyclerview/example_recyclerview.iml" filepath="$PROJECT_DIR$/example_recyclerview/example_recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_synchronizeddemo/example_synchronizeddemo.iml" filepath="$PROJECT_DIR$/example_synchronizeddemo/example_synchronizeddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/example_thread_runnable/example_thread_runnable.iml" filepath="$PROJECT_DIR$/example_thread_runnable/example_thread_runnable.iml" />

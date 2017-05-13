@@ -49,7 +49,9 @@ public class MainTabActivity extends FragmentActivity {
         fixedIndicatorView.setOnTransitionListener(new OnTransitionTextListener().setColor(Color.RED,Color.GRAY));
 
         //centerView,相当于新浪微博的 + 按钮
-        /*在实际开发中LayoutInflater这个类还是非常有用的，它的作用类似于findViewById()。不同点是LayoutInflater是用来找res/layout/下的xml布局文件，并且实例化；而findViewById()是找xml布局文件下的具体widget控件(如Button、TextView等)。
+        /*在实际开发中LayoutInflater这个类还是非常有用的，它的作用类似于findViewById()。
+        不同点是LayoutInflater是用来找res/layout/下的xml布局文件，并且实例化；
+        而findViewById()是找xml布局文件下的具体widget控件(如Button、TextView等)。
         具体作用：
         1、对于一个没有被载入或者想要动态载入的界面，都需要使用LayoutInflater.inflate()来载入；
         2、对于一个已经载入的界面，就可以使用Activiyt.findViewById()方法来获得其中的界面元素。*/

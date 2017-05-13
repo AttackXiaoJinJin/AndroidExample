@@ -1,11 +1,11 @@
 [
     {
-        "merged": "F:\\ASWorkSpace\\AndroidExample\\example_recyclerview\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\chenjin\\.android\\build-cache\\04ae037e7ae1bfb54e31524a306599e501f9a3ab\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "F:\\ASWorkSpace\\AndroidExample\\example_recyclerview\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\chenjin\\.android\\build-cache\\04ae037e7ae1bfb54e31524a306599e501f9a3ab\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\ASWorkSpace\\AndroidExample\\example_recyclerview\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\chenjin\\.android\\build-cache\\04ae037e7ae1bfb54e31524a306599e501f9a3ab\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "F:\\ASWorkSpace\\AndroidExample\\example_recyclerview\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",

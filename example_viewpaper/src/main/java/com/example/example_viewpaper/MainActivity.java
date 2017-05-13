@@ -39,9 +39,9 @@ public class MainActivity extends FragmentActivity {
     {
         startActivity(new Intent(getApplicationContext(), BannerActivity.class));
     }
+
     //引导界面Guide
     //fixedIndicatorView
-
     public void onClickGuide(View view)
     {
         startActivity(new Intent(getApplicationContext(), GuideActivity.class));
@@ -49,7 +49,6 @@ public class MainActivity extends FragmentActivity {
 
     //标签主界面
     //fixedIndicatorView
-
     public void onClickMainTab(View view)
     {
         startActivity(new Intent(getApplicationContext(), MainTabActivity.class));
