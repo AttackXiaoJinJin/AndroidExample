@@ -16,6 +16,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -87,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         chooseFromAlbum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //运行时的权限处理，动态申请RITE_EXTERNAL_STORAGE危险权限
                 if(ContextCompat.checkSelfPermission(MainActivity.this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED)
                 {
                     ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
@@ -100,6 +102,17 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
+
+    private void openAlbum(){
+        Intent intent=new Intent("android.intent.action.GET_CONTENT");
+        //设置必要的属性
+        intent.setType("image/*");
+        //打开相册
+        startActivityForResult(intent, CHOOSE_PHOTO);
+
+
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -148,11 +161,13 @@ public class MainActivity extends AppCompatActivity {
         if(DocumentsContract.isDocumentUri(this, uri)){
             //如果是document类型的Uri,则通过document id处理
             String docId=DocumentsContract.getDocumentId(uri);
+            //如果是media格式的话，document id还需要再进行一次解析，通过字符串分割的方式取出后半部分才能得到真正的数字id
             if("com.android.providers.media.documents".equals(uri.getAuthority())){
                 //解析出数字格式的id
                 String id=docId.split(":")[1];
                 String selection=MediaStore.Images.Media._ID + "=" + id;
                 imagePath=getImagePath(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, selection);
+                Log.d("aa", imagePath);
 
             }
             else if("com.android.providers.downloads.documents".equals(uri.getAuthority())){
@@ -210,14 +225,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private void openAlbum(){
-        Intent intent=new Intent("android.intent.action.GET_CONTENT");
-        intent.setType("image/*");
-        //打开相册
-        startActivityForResult(intent, CHOOSE_PHOTO);
 
-
-    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)
