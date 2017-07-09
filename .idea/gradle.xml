@@ -12,11 +12,13 @@
             <option value="$PROJECT_DIR$/baidumap" />
             <option value="$PROJECT_DIR$/chatroom" />
             <option value="$PROJECT_DIR$/example_aidl_server" />
+            <option value="$PROJECT_DIR$/example_animation" />
             <option value="$PROJECT_DIR$/example_broadcast" />
             <option value="$PROJECT_DIR$/example_cameraalbum" />
             <option value="$PROJECT_DIR$/example_chapter13" />
             <option value="$PROJECT_DIR$/example_custonview" />
             <option value="$PROJECT_DIR$/example_internet" />
+            <option value="$PROJECT_DIR$/example_mediaplay" />
             <option value="$PROJECT_DIR$/example_notification" />
             <option value="$PROJECT_DIR$/example_recyclerview" />
             <option value="$PROJECT_DIR$/example_synchronizeddemo" />
